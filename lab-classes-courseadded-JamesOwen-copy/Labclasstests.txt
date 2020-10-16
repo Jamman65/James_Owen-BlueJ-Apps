@@ -1,0 +1,16 @@
+Student student1 = new Student("James Owen", "1");
+LabClass labClass1 = new LabClass(3);
+labClass1.enrollStudent(student1);
+labClass1.setInstructor("Nicholas Day");
+labClass1.setRoom("G100");
+labClass1.setTime("Tuesday 29th September 2020");
+student1.addCredits(20);
+student1.changeName("James Owen");
+Course Computing = new Course();
+Course course1 = new Course(3);
+course1.setRoom("G400");
+Student student1 = new Student("Dom L", "2");
+LabClass labClass1 = new LabClass(3);
+labClass1.enrollStudent(student1);
+Student student2 = new Student("Charlie O", "3");
+labClass1.enrollStudent(student2);
