@@ -1,12 +1,18 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+Project: lab-classes
+Authors: David J. Barnes and Michael Kölling
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+This project is part of the material for the book
+
+   Objects First with Java - A Practical Introduction using BlueJ
+   Fifth edition
+   David J. Barnes and Michael Kölling
+   Pearson Education, 2012
+
+It is discussed in chapter 1.
+
+The purpose of this project is to illustrate object interaction and to examine
+some simple code. See chapters one and three of the book.
+
+To use this project, create some Student objects, then create a LabClass object.
+Add the students to the class using the "enrolStudent" method. Print a class
+list.
