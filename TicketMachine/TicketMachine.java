@@ -1,3 +1,4 @@
+import java.util.Date;
 /**
  * TicketMachine models a ticket machine that issues
  * flat-fare tickets.
@@ -6,12 +7,10 @@
  * sensible amounts of money, and will only print a ticket
  * if enough money has been input.
  * 
- * @author David J. Barnes and Michael Kölling
- * @version 2016.02.29
- * 
- * Modified by Student Name
+ * @author James Owen
+ * @version 03/10/2020
  */
-public class TicketMachine
+public class TicketMachine extends Tickets
 {
     // The price of a ticket from this machine.
     private int price;
@@ -19,23 +18,33 @@ public class TicketMachine
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
+    
+    private Date currentDate = new Date();
+
+    
+
+
 
     /**
-     * Create a machine that issues tickets of the given price.
+     * This shows the customer what tickets they can buy
      */
-    public TicketMachine(int cost)
+     public void printTicket()
     {
-        price = cost;
-        balance = 0;
-        total = 0;
+        System.out.println("the tickets you can buy are");
+        System.out.println("Aylesbury Ticket price 220");
+        System.out.println("Amersham Ticket price 300");
+        System.out.println("High Wycombe Ticket price 330");
+    
     }
+
+    
 
     /**
      * @Return The price of a ticket.
      */
-    public int getPrice()
+    public int getTicket1()
     {
-        return price;
+        return ticket1;
     }
 
     /**
@@ -53,47 +62,132 @@ public class TicketMachine
      */
     public void insertMoney(int amount)
     {
-        if(amount > 0) 
-        {
+    /**
+     * This is the code which shows the customer which ticket they have bought
+     */    
+        if(amount == ticket1) {
             balance = balance + amount;
+            System.out.println("you have purchased the Aylesbury ticket = ticket1");
         }
-        else 
-        {
-            System.out.println("Use a positive amount rather than: " +
-                               amount);
+       
+        
+        if(amount == ticket2) {
+            balance = balance + amount;
+            System.out.println("you have purchased the Amersham ticket = ticket 2");
         }
+        
+        
+        if(amount == ticket3) {
+            balance = balance + amount;
+            System.out.println("you have purchased the High Wycombe ticket = ticket 3");
+        }
+      
     }
 
-    /**
+    
+
+    
+    public void insertACoin(int value)
+    {
+        switch(value)
+        {
+            case 10: balance = balance + value;
+            System.out.println("balance = "+balance);
+            break;
+            case 20: balance = balance + value;
+            break;
+            case 100: balance = balance + value;
+            break;
+            case 200: balance = balance + value;
+            break;
+           
+            default:
+                System.out.println(value+" not valid coin");
+            }
+    }
+     /**
      * Print a ticket if enough money has been inserted, and
      * reduce the current balance by the ticket price. Print
      * an error message if more money is required.
      */
-    public void printTicket()
+    public void printTicket1()
     {
-        if(balance >= price) 
-        {
+        if(balance >= ticket1) {
             // Simulate the printing of a ticket.
             System.out.println("##################");
-            System.out.println("# The BlueJ Line");
+            System.out.println("# The Aylesbury line");
             System.out.println("# Ticket");
-            System.out.println("# " + price + " cents.");
+            System.out.println("# " + ticket1 + " cents.");
             System.out.println("##################");
-            System.out.println();
+            System.out.println("# 03/10/2020");
 
             // Update the total collected with the price.
-            total = total + price;
-            // Reduce the balance by the price.
-            balance = balance - price;
+            total = total + ticket1;
+            // Reduce the balance by the prince.
+            balance = balance - ticket1;
         }
-        else 
-        {
+        else {
             System.out.println("You must insert at least: " +
-                               (price - balance) + " more cents.");
+                               (ticket1 - balance) + " more cents.");
                     
         }
     }
+    
+     /**
+     * Print a ticket if enough money has been inserted, and
+     * reduce the current balance by the ticket price. Print
+     * an error message if more money is required.
+     */
+    public void printTicket2()
+    {
+        if(balance >= ticket2) {
+            // Simulate the printing of a ticket.
+            System.out.println("##################");
+            System.out.println("# The Amersham line");
+            System.out.println("# Ticket");
+            System.out.println("# " + ticket2 + " cents.");
+            System.out.println("##################");
+            System.out.println("# 03/10/2020");
 
+            // Update the total collected with the price.
+            total = total + ticket2;
+            // Reduce the balance by the prince.
+            balance = balance - ticket2;
+        }
+        else {
+            System.out.println("You must insert at least: " +
+                               (ticket2 - balance) + " more cents.");
+                    
+        }
+    }
+    
+     /**
+     * Print a ticket if enough money has been inserted, and
+     * reduce the current balance by the ticket price. Print
+     * an error message if more money is required.
+     */
+    public void printTicket3()
+    {
+        if(balance >= ticket3) {
+            // Simulate the printing of a ticket.
+            System.out.println("##################");
+            System.out.println("# The High Wycombe line");
+            System.out.println("# Ticket");
+            System.out.println("# " + ticket3 + " cents.");
+            System.out.println("##################");
+            System.out.println("# 03/10/2020");
+
+            // Update the total collected with the price.
+            total = total + ticket3;
+            // Reduce the balance by the prince.
+            balance = balance - ticket3;
+        }
+        else {
+            System.out.println("You must insert at least: " +
+                               (ticket3 - balance) + " more cents.");
+                    
+        }
+    }
     /**
      * Return the money in the balance.
      * The balance is cleared.
