@@ -35,19 +35,44 @@ public class StockManager
      * @param id The ID of the product.
      * @param amount The amount to increase the quantity by.
      */
-    public void delivery(int id, int amount)
+    public void deliverProduct(int id, int value)
     {
+        Product product = findProduct(id);
+        
+        product.increaseQuantity(value);
+        System.out.println("Restocked products by " + value);
+        
     }
     
     /**
-     * Try to find a product in the stock with the given id.
-     * @return The identified product, or null if there is none
-     *         with a matching ID.
+     * 
      */
     public Product findProduct(int id)
     {
-        return null;
+        int index = 0;
+        Product product = null;
+        product = stock.get(id);
+        
+        return product;
     }
+    
+    /**
+     * Sell one of the given item.
+     * Show the before and after status of the product.
+     * @param id The ID of the product being sold.
+     */
+    public void sellProduct(int id)
+    {
+        Product product = findProduct(id);
+        printProduct(id);
+        
+        if(product != null) 
+        {
+            product.sellOne();
+        }
+        System.out.println("items have been sold");
+    }    
+
     
     /**
      * Locate a product with the given ID, and return how
@@ -62,9 +87,87 @@ public class StockManager
     }
 
     /**
-     * Print details of all the products.
+     * Print details of the given product. If found,
+     * its name and stock quantity will be shown.
+     * @param id The ID of the product to look for.
      */
-    public void printProductDetails()
+    public void printProduct(int id)
     {
+        Product product = findProduct(id);
+        
+        if(product != null) 
+        {
+            System.out.println(product.toString());
+        }
     }
+    
+    /**
+     * Print out each product in the stock
+     * in the order they are in the stock list
+     */
+    public void printAllProducts()
+    {
+        System.out.println(" Products Management System");
+        
+        for(Product product : stock)
+        {
+            System.out.println(product);
+        }
+
+        System.out.println();
+    }
+    
+    public ArrayList<Product> printLowStockProducts(int minimum)
+    {
+        ArrayList<Product> lowStock = new ArrayList<Product>();
+        int count = 0;
+        
+        System.out.println(" Here are all of the out of stock products");
+        System.out.println();
+        
+        for(Product product : stock)
+        {
+            if(product.getQuantity() <= minimum)
+            {
+                count++;
+                lowStock.add(product);
+                System.out.println(product);
+            }
+        }
+        
+        System.out.println();
+        System.out.println("There were " + count + 
+                           " stock products with less than " + minimum +
+                           " items\n");
+        return lowStock;
+    }
+    
+     public void restockLowProducts(int minimum)
+    {
+       ArrayList<Product> lowStock = printLowStockProducts(minimum);
+       
+       System.out.println("\n Restocking the products as requested " + 
+                          minimum + "\n");
+                          
+       for(Product product : lowStock)
+       {
+          product.increaseQuantity(minimum - product.getQuantity()); 
+       }
+    }
+    
+    public void removeProduct(int id)
+    {
+        Product product = findProduct(id);
+        stock.remove(product);
+        System.out.println("Product has been removed"+ id);
+    }
+    
+    public void renameProduct(int id, String newProductname)
+    {
+        Product product = findProduct(id);
+        System.out.println(product);
+        product.setName(newProductname);
+        System.out.println("Product has been renamed successfully");
+        System.out.println(product);
+        }
 }
