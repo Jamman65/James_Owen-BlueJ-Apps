@@ -1,0 +1,34 @@
+Student student1 = new Student("James Owen", "01");
+Course course1 = new Course("002", "Games Development");
+Module module1 = new Module("Programming Concepts", "CO452");
+module1.rewardMark(50);
+Module module2 = new Module("Games Design", "003");
+Module module3 = new Module("Computer Architecture", "004");
+Module module4 = new Module("3D Modelling", "005");
+course1.addModule(1, module1);
+course1.addModule(2, module2);
+course1.addModule(3, module3);
+course1.addModule(4, module4);
+course1.print();
+Course 002 - 
+
+Module: CO452Course title Programming Concepts Mark = 50
+Module: 003Course title Games Design Mark = 0
+Module: 004Course title Computer Architecture Mark = 0
+Module: 005Course title 3D Modelling Mark = 0
+module2.rewardMark(20);
+module3.rewardMark(40);
+module4.rewardMark(60);
+course1.calculateGrade()
+    returned String "F"
+course1.printGrade();
+course1.print();
+Course 002 - 
+
+Module: CO452Course title Programming Concepts Mark = 50
+Module: 003Course title Games Design Mark = 20
+Module: 004Course title Computer Architecture Mark = 40
+Module: 005Course title 3D Modelling Mark = 60
+course1.printGrade();
+course1.calculateGrade()
+    returned String "F"

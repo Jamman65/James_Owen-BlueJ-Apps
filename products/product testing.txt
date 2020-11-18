@@ -1,0 +1,183 @@
+StockManager stockMan1 = new StockManager();
+StockDemo stockDem1 = new StockDemo(stockMan1);
+stockDem1.runDemo();
+
+*******************************
+  Products Management System
+     
+*******************************
+
+100: Apple iPhone 11 stock level: 0
+101: Samsung Galaxy S10 stock level: 0
+102: Samsung Galaxy S20 stock level: 0
+103: Gogle Pixel 4A stock level: 0
+104: Xiamoi Redmi stock level: 0
+105: Google pixel 5 stock level: 0
+106: Apple iPhone 12 mini stock level: 0
+107: Oneplus 8 stock level: 0
+108: Oppo Find X stock level: 0
+109: Google Pixelbook stock level: 0
+
+
+100: Apple iPhone 11 stock level: 0
+    ** Re-Stocked by 5 ***
+100: Apple iPhone 11 stock level: 5
+
+
+101: Samsung Galaxy S10 stock level: 0
+    ** Re-Stocked by 3 ***
+101: Samsung Galaxy S10 stock level: 3
+
+
+102: Samsung Galaxy S20 stock level: 0
+    ** Re-Stocked by 4 ***
+102: Samsung Galaxy S20 stock level: 4
+
+
+103: Gogle Pixel 4A stock level: 0
+    ** Re-Stocked by 2 ***
+103: Gogle Pixel 4A stock level: 2
+
+
+104: Xiamoi Redmi stock level: 0
+    ** Re-Stocked by 2 ***
+104: Xiamoi Redmi stock level: 2
+
+
+105: Google pixel 5 stock level: 0
+    ** Re-Stocked by 1 ***
+105: Google pixel 5 stock level: 1
+
+
+106: Apple iPhone 12 mini stock level: 0
+    ** Re-Stocked by 2 ***
+106: Apple iPhone 12 mini stock level: 2
+
+
+107: Oneplus 8 stock level: 0
+    ** Re-Stocked by 3 ***
+107: Oneplus 8 stock level: 3
+
+
+108: Oppo Find X stock level: 0
+    ** Re-Stocked by 5 ***
+108: Oppo Find X stock level: 5
+
+
+*******************************
+  Products Management System
+     
+*******************************
+
+100: Apple iPhone 11 stock level: 5
+101: Samsung Galaxy S10 stock level: 3
+102: Samsung Galaxy S20 stock level: 4
+103: Gogle Pixel 4A stock level: 2
+104: Xiamoi Redmi stock level: 2
+105: Google pixel 5 stock level: 1
+106: Apple iPhone 12 mini stock level: 2
+107: Oneplus 8 stock level: 3
+108: Oppo Find X stock level: 5
+109: Google Pixelbook stock level: 0
+
+
+*******************************
+  Products Management System
+     
+*******************************
+
+100: Apple iPhone 11 stock level: 5
+101: Samsung Galaxy S10 stock level: 3
+102: Samsung Galaxy S20 stock level: 4
+103: Gogle Pixel 4A stock level: 2
+104: Xiamoi Redmi stock level: 2
+105: Google pixel 5 stock level: 1
+106: Apple iPhone 12 mini stock level: 2
+107: Oneplus 8 stock level: 3
+108: Oppo Find X stock level: 5
+109: Google Pixelbook stock level: 0
+
+Selling Product: Order Quantity = 3
+100: Apple iPhone 11 stock level: 5
+  3 items sold!
+
+Selling Product: Order Quantity = 4
+101: Samsung Galaxy S10 stock level: 3
+  3 items sold!
+
+Selling Product: Order Quantity = 2
+102: Samsung Galaxy S20 stock level: 4
+  2 items sold!
+
+Selling Product: Order Quantity = 4
+103: Gogle Pixel 4A stock level: 2
+  2 items sold!
+
+Selling Product: Order Quantity = 6
+104: Xiamoi Redmi stock level: 2
+  2 items sold!
+
+Selling Product: Order Quantity = 4
+105: Google pixel 5 stock level: 1
+  1 items sold!
+
+Selling Product: Order Quantity = 1
+106: Apple iPhone 12 mini stock level: 2
+  1 items sold!
+
+Selling Product: Order Quantity = 1
+107: Oneplus 8 stock level: 3
+  1 items sold!
+
+Selling Product: Order Quantity = 2
+108: Oppo Find X stock level: 5
+  2 items sold!
+
+
+*******************************
+  Products Management System
+     
+*******************************
+
+100: Apple iPhone 11 stock level: 2
+101: Samsung Galaxy S10 stock level: 0
+102: Samsung Galaxy S20 stock level: 2
+103: Gogle Pixel 4A stock level: 0
+104: Xiamoi Redmi stock level: 0
+105: Google pixel 5 stock level: 0
+106: Apple iPhone 12 mini stock level: 1
+107: Oneplus 8 stock level: 2
+108: Oppo Find X stock level: 3
+109: Google Pixelbook stock level: 0
+
+
+*******************************
+  Products Management System
+     
+*******************************
+
+100: Apple iPhone 11 stock level: 2
+101: Samsung Galaxy S10 stock level: 0
+102: Samsung Galaxy S20 stock level: 2
+103: Gogle Pixel 4A stock level: 0
+104: Xiamoi Redmi stock level: 0
+105: Google pixel 5 stock level: 0
+106: Apple iPhone 12 mini stock level: 1
+107: Oneplus 8 stock level: 2
+108: Oppo Find X stock level: 3
+109: Google Pixelbook stock level: 0
+
+
+ Product ID 102 REMOVED!
+
+103: Gogle Pixel 4A stock level: 0
+New name for product
+103: Google Pixel 4A stock level: 0
+
+Searching for Apple
+
+100: Apple iPhone 11 stock level: 2
+106: Apple iPhone 12 mini stock level: 1
+
+There are 2 products containing Apple in their name!
+
