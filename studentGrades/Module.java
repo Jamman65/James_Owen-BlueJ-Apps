@@ -10,7 +10,7 @@ public class Module
 {
     public String title;
     
-    public String modulecode;
+    public String moduleCode;
     
     private int mark;
     
@@ -19,11 +19,11 @@ public class Module
     /**
      * Constructor for objects of class Module
      */
-    public Module(String title, String modulecode)
+    public Module(String title, String moduleCode)
     {
         mark = 0;
         this.title = title;
-        this.modulecode = modulecode;
+        this.moduleCode = moduleCode;
         
     }
     
@@ -47,7 +47,7 @@ public class Module
  
         public void print()
     {
-        System.out.println("Module: " + modulecode +
+        System.out.println("Module: " + moduleCode +
             "Course title " + title + " Mark = " + mark);
     }
 }
