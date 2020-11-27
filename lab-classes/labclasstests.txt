@@ -38,7 +38,7 @@ Charile O, student ID: 3, credits: 20, course:
 Number of students: 3
 student1.changecourse("computing", "G400");
 CO452.printList();
-Lab class  Tuesday 29th September 2020 
+Lab class co452Lab   Tuesday 29th September 2020 
 Instructor: Nicholas day   Room: G100
 Class list:
 James Owen, student ID: 1, credits: 20, course: 
