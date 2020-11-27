@@ -19,6 +19,7 @@ public class Course
     
     private int noOfModules;
     private int totalMark;
+    private int totalCredits;
     private int meanMark;
     
     private int finalMark;
@@ -36,15 +37,14 @@ public class Course
         
         noOfModules = 0;
         totalMark = 0;
-        
+        totalCredits = 0;
        
     }
     
-       private void addMark(Module module)
+   private void addMark(Module module)
    {
-       
- 
-           totalMark = totalMark + module.getMark();
+       totalMark = totalMark + module.getMark();
+       totalCredits += module.CREDIT;
            
    }
     
@@ -71,7 +71,10 @@ public class Course
         System.out.println("Course " + codeNo + " - ");
         System.out.println();
         
-        printModules();
+        module1.print();
+        module2.print();
+        module3.print();
+        module4.print();
     }
     
     private void printModules()

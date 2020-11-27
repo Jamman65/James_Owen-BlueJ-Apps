@@ -14,6 +14,8 @@ public class Module
     
     private int mark;
     
+    public static final int CREDIT = 30;
+
     
 
     /**
