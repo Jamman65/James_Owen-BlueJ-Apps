@@ -11,6 +11,7 @@ public class Course
     // instance variables - replace the example below with your own
     private String codeNo;
     private String title;
+    public int credits;
     
     private Module module1;
     private Module module2;
@@ -19,7 +20,7 @@ public class Course
     
     private int noOfModules;
     private int totalMark;
-    private int totalCredits;
+    public int totalCredits;
     private int meanMark;
     
     private int finalMark;
@@ -70,11 +71,9 @@ public class Course
         // put your code here
         System.out.println("Course " + codeNo + " - ");
         System.out.println();
+        System.out.println("total credits:" + credits);
         
-        module1.print();
-        module2.print();
-        module3.print();
-        module4.print();
+        
     }
     
     private void printModules()
@@ -84,6 +83,24 @@ public class Course
         module3.print();
         module4.print();
     }
+    
+    /**
+     * Add some credit points to the student's accumulated credits.
+     */
+    public void addCredits(int additionalPoints)
+    {
+        credits += additionalPoints;
+        
+    }
+    
+    /**
+     * Return the number of credit points this student has accumulated.
+     */
+    public int getCredits()
+    {
+        return credits;
+    }
+    
     public void printGrade()
     {
         if(noOfModules == 4)

@@ -130,7 +130,7 @@ public class StockManager
     public void printAllProducts()
     {
        System.out.println("\n*******************************");
-       System.out.println("  Products Management System");
+       System.out.println("  My Product List");
        System.out.println("    ");
        System.out.println("*******************************\n");
        

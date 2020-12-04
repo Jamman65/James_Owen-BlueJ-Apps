@@ -14,6 +14,8 @@ public class Module
     
     private int mark;
     
+    public int totalCredits;
+    
     public static final int CREDIT = 30;
 
     
@@ -29,6 +31,7 @@ public class Module
         
     }
     
+
     public int getMark()
     {
         // put your code here
@@ -45,6 +48,7 @@ public class Module
         {
             System.out.print("That mark is invalid");
         }
+        
     }
  
         public void print()
