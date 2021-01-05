@@ -3,7 +3,7 @@ StockDemo stockDem1 = new StockDemo(stockMan1);
 stockDem1.runDemo();
 
 *******************************
-  Products Management System
+  Product List
      
 *******************************
 
@@ -65,7 +65,7 @@ stockDem1.runDemo();
 
 
 *******************************
-  Products Management System
+  Product List
      
 *******************************
 
@@ -135,7 +135,7 @@ Selling Product: Order Quantity = 2
 
 
 *******************************
-  Products Management System
+  Product List
      
 *******************************
 
