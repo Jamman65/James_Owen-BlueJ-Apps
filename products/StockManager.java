@@ -4,8 +4,8 @@ import java.util.ArrayList;
  * Manage the stock in a business.
  * The stock is described by zero or more Products.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (James Owen) 
+ * @version (1)
  */
 public class StockManager
 {
@@ -130,7 +130,7 @@ public class StockManager
     public void printAllProducts()
     {
        System.out.println("\n*******************************");
-       System.out.println("  Products Management System");
+       System.out.println("  My Product List");
        System.out.println("    ");
        System.out.println("*******************************\n");
        

@@ -14,7 +14,7 @@ public class Student
     // the student ID
     private String id;
     // the amount of credits for study taken so far
-    private int credits;
+    public int credits;
     
     private Course course;
     
@@ -58,6 +58,7 @@ public class Student
     public void addCredits(int additionalPoints)
     {
         credits += additionalPoints;
+        
     }
 
     

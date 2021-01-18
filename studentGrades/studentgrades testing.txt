@@ -1,5 +1,10 @@
 Student student1 = new Student("James Owen", "01");
+course1.addCredits(20);
+course1.print();
+Course 002 - 
+total credits:20
 Course course1 = new Course("002", "Games Development");
+student1.enrolOnCourse(course1);
 Module module1 = new Module("Programming Concepts", "CO452");
 module1.rewardMark(50);
 Module module2 = new Module("Games Design", "003");

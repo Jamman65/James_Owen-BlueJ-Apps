@@ -24,22 +24,22 @@ public class Course
   }
 }
 
-      /**
-     * Set a new course for this student.
-     */
-    public void changecourse(String replacementcourse, String id1)
+/**
+* Set a new course for this student.
+*/
+public void changecourse(String replacementcourse, String id1)
+{
+  course = replacementcourse;
+  courseid = id1;
+}
+public void  Courseprint()
     {
-        course = replacementcourse;
-        courseid = id1;
+        System.out.println("course: \n " + course + " ,course id" + courseid);
     }
     
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    
-    
 }
+
+    
+
+    
+

@@ -3,23 +3,25 @@
  * This class stores information about a course
  * that enrolled students may want to complete
  *
- * @author 
- * @version 
+ * @author James Owen 
+ * @version 1
  */
 public class Course
 {
     // instance variables - replace the example below with your own
     private String codeNo;
     private String title;
+    public int credits;
     
     private Module module1;
     private Module module2;
     private Module module3;
     private Module module4;
     
-    private int noofmodules;
-    private int totalmark;
-    private int meanmark;
+    private int noOfModules;
+    private int totalMark;
+    public int totalCredits;
+    private int meanMark;
     
     private int finalMark;
     
@@ -34,17 +36,16 @@ public class Course
         this.codeNo = codeNo;
         this.title = title;
         
-        noofmodules = 0;
-        totalmark = 0;
-        
+        noOfModules = 0;
+        totalMark = 0;
+        totalCredits = 0;
        
     }
     
-       private void addMark(Module module)
+   private void addMark(Module module)
    {
-       
- 
-           totalmark = totalmark + module.getMark();
+       totalMark = totalMark + module.getMark();
+       totalCredits += module.CREDIT;
            
    }
     
@@ -70,8 +71,9 @@ public class Course
         // put your code here
         System.out.println("Course " + codeNo + " - ");
         System.out.println();
+        System.out.println("total credits:" + credits);
         
-        printModules();
+        
     }
     
     private void printModules()
@@ -81,46 +83,64 @@ public class Course
         module3.print();
         module4.print();
     }
+    
+    /**
+     * Add some credit points to the student's accumulated credits.
+     */
+    public void addCredits(int additionalPoints)
+    {
+        credits += additionalPoints;
+        
+    }
+    
+    /**
+     * Return the number of credit points this student has accumulated.
+     */
+    public int getCredits()
+    {
+        return credits;
+    }
+    
     public void printGrade()
     {
-        if(noofmodules == 4)
+        if(noOfModules == 4)
         {
-            totalmark = 0;
+            totalMark = 0;
             
             addMark(module1);
             addMark(module2);
             addMark(module3);
             addMark(module4);
             
-            System.out.println("The final mark for your course is " + meanmark +
+            System.out.println("The final mark for your course is " + meanMark +
                                "final grade: " + calculateGrade());
-            
+            System.out.println();                   
         }
     }
-     public String calculateGrade()
+    public String calculateGrade()
     {
-        meanmark = totalmark / 4;
-        if((meanmark >= 0) && (meanmark <= 40))
+        meanMark = totalMark / 4;
+        if((meanMark >= 0) && (meanMark <= 40))
         {
             return "F";
         }
         
-        if((meanmark >= 40) && (meanmark <= 49))
+        if((meanMark >= 40) && (meanMark <= 49))
         {
             return "D";
         }
         
-         if((meanmark >= 50) && (meanmark <= 59))
+        if((meanMark >= 50) && (meanMark <= 59))
         {
             return "C";
         }
         
-         if((meanmark >= 60) && (meanmark <= 69))
+         if((meanMark >= 60) && (meanMark <= 69))
         {
             return "B";
         }
         
-        if((meanmark >= 70) && (meanmark <= 100))
+        if((meanMark >= 70) && (meanMark <= 100))
         {
             return "A";
         }
