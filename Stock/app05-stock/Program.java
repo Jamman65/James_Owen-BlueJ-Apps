@@ -3,8 +3,8 @@ import java.io.IOException;
  * This class creates an instance of the StockApp
  * and then calls on its run method.
  *
- * @author Derek Peacock
- * @version 0.1
+ * @author James Owen
+ * @version 1
  */
 public class Program
 {

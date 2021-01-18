@@ -5,7 +5,7 @@
  * print and remove stock products
  *
  * @author James Owen
- * @version 0.1
+ * @version 1
  */
 public class StockApp
 {
