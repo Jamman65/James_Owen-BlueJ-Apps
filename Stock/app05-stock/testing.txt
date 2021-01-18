@@ -1,0 +1,199 @@
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+2
+ Deliver an amount of an existing Product
+
+
+ Please enter the product ID number > 
+112
+
+ Please enter the order quantity > 
+-4
+    112: Samsung Galaxy s20 stock level: 9
+Attempt to restock Samsung Galaxy s20 with a non-positive amount: -4
+    Re-stocking by -4
+
+
+-4 of 112: Samsung Galaxy s20 stock level: 9 delivered!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+3
+ Deliver an amount of an existing Product
+
+
+ Please enter the product ID number > 
+112
+
+    Please enter the order quantity > 
+2
+
+ Product ID 112 sold!
+
+
+    112: Samsung Galaxy s20 stock level: 7 2 sold!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+3
+ Deliver an amount of an existing Product
+
+
+ Please enter the product ID number > 
+112
+
+    Please enter the order quantity > 
+10
+Sold 7 of 112:Samsung Galaxy s20 3 orders not met!
+
+ Product ID 112 sold!
+
+
+    112: Samsung Galaxy s20 stock level: 0 10 sold!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+3
+ Deliver an amount of an existing Product
+
+
+ Please enter the product ID number > 
+112
+
+    Please enter the order quantity > 
+-2
+
+ Product ID 112 sold!
+
+
+    112: Samsung Galaxy s20 stock level: 2 -2 sold!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+4
+
+ Please enter search term > 
+Your input is blank
+
+ Please enter search term > 
+Samsung
+ Printing products matching Samsung
+
+
+Searching for Samsung
+
+201: Samsung Galaxy S10 stock level: 1
+202: Samsung Galaxy S20 stock level: 4
+111: Samsung Galaxy S10 stock level: 1
+112: Samsung Galaxy s20 stock level: 2
+
+There are 4 products containing Samsung in their name!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+6
+
+ Please enter the minimum stock level > 
+2
+ Printing Stock with levels lower than 2
+
+ Printing all out of stock products
+
+201: Samsung Galaxy S10 stock level: 1
+207: Oneplus Nord stock level: 2
+1: ifjjifjf stock level: 1
+111: Samsung Galaxy S10 stock level: 1
+112: Samsung Galaxy s20 stock level: 2
+114: Apple iphone 12 stock level: 1
+115: motrola g9 plus stock level: 1
+103: New product stock level: 1
+203: New product stock level: 0
+
+There were 9 stock products with less than 2 items
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+8

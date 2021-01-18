@@ -1,0 +1,199 @@
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+7
+    200: Apple iPhone 11 stock level: 6
+    201: Samsung Galaxy S10 stock level: 6
+    202: Samsung Galaxy S20 stock level: 6
+    203: Gogle Pixeeeel 4A stock level: 4
+    204: Xiaomi mi 11 stock level: 5
+    205: Poco X3  stock level: 5
+    206: Oneplus 8T stock level: 1
+    207: Oneplus Nord stock level: 6
+    208: Oppo Find X stock level: 5
+    209: Apple iPhone 12 stock level: 6
+    111: Samsung galaxy s10 stock level: 1
+    112: samsung galaxy s20 stock level: 1
+    114: Apple iphone 12 stock level: 1
+    115: motorola g9 plus stock level: 1
+    203: new product stock level: 0
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+2
+ Deliver an amount of an existing Product
+
+
+ Please enter the product ID number > 
+112
+
+ Please enter the order quantity > 
+8
+    112: samsung galaxy s20 stock level: 1
+    Re-stocking by 8
+
+
+8 of 112: samsung galaxy s20 stock level: 9 delivered!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+3
+ Deliver an amount of an existing Product
+
+
+ Please enter the product ID number > 
+112
+
+    Please enter the order quantity > 
+2
+
+ Product ID 112 sold!
+
+
+    112: samsung galaxy s20 stock level: 7 2 sold!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+3
+ Deliver an amount of an existing Product
+
+
+ Please enter the product ID number > 
+112
+
+    Please enter the order quantity > 
+10
+Sold 7 of 112:samsung galaxy s20 3 orders not met!
+
+ Product ID 112 sold!
+
+
+    112: samsung galaxy s20 stock level: 0 10 sold!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+4
+
+ Please enter search term > 
+Your input is blank
+
+ Please enter search term > 
+samsung
+ Printing products matching samsung
+
+
+Searching for samsung
+
+112: samsung galaxy s20 stock level: 0
+
+There are 1 products containing samsung in their name!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+6
+
+ Please enter the minimum stock level > 
+2
+ Printing Stock with levels lower than 2
+
+ Printing all out of stock products
+
+206: Oneplus 8T stock level: 1
+111: Samsung galaxy s10 stock level: 1
+112: samsung galaxy s20 stock level: 0
+114: Apple iphone 12 stock level: 1
+115: motorola g9 plus stock level: 1
+203: new product stock level: 0
+
+There were 6 stock products with less than 2 items
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 

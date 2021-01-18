@@ -1,0 +1,199 @@
+ Please enter the product ID number > 
+112
+
+ Please enter the product name > 
+Your input is blank
+
+ Please enter the product name > 
+samsung galaxy s20
+    112: samsung galaxy s20 stock level: 0
+    Re-stocking by 1
+
+
+112: samsung galaxy s20 stock level: 1 added!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Product
+
+
+ Please enter the product ID number > 
+113
+
+ Please enter the product name > 
+Your input is blank
+
+ Please enter the product name > 
+Apple iphone 11
+    113: Apple iphone 11 stock level: 0
+    Re-stocking by 1
+
+
+113: Apple iphone 11 stock level: 1 added!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Product
+
+
+ Please enter the product ID number > 
+114
+
+ Please enter the product name > 
+Your input is blank
+
+ Please enter the product name > 
+Apple iphone 12
+    114: Apple iphone 12 stock level: 0
+    Re-stocking by 1
+
+
+114: Apple iphone 12 stock level: 1 added!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Product
+
+
+ Please enter the product ID number > 
+115
+
+ Please enter the product name > 
+Your input is blank
+
+ Please enter the product name > 
+motorola g9 plus
+    115: motorola g9 plus stock level: 0
+    Re-stocking by 1
+
+
+115: motorola g9 plus stock level: 1 added!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Product
+
+
+ Please enter the product ID number > 
+203
+
+ Please enter the product name > 
+Your input is blank
+
+ Please enter the product name > 
+new product
+    203: Gogle Pixeeeel 4A stock level: 3
+    Re-stocking by 1
+
+
+203: new product stock level: 0 added!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+1
+ Adding a new Product
+
+
+ Please enter the product ID number > 
+116
+
+ Please enter the product name > 
+Your input is blank
+
+ Please enter the product name > 
+
+Your input is blank
+
+ Please enter the product name > 
+""
+    116: "" stock level: 0
+    Re-stocking by 1
+
+
+116: "" stock level: 1 added!
+
+    ******************************
+     Stock Management Interface 
+       App05: by James Owen
+    ******************************
+
+    1. Add Product
+    2. Deliver Product
+    3. Sell Product
+    4. Search for Product
+    5. Remove Product
+    6. Print Low Stock
+    7. Print All Products
+    8. Quit
+
+    Enter choice number > 
+8
