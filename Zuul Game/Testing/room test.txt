@@ -1,0 +1,200 @@
+ You are carrying: nothing!
+ You are  lost in open Forest
+> look
+ You are lost in open Forest
+
+ You are  in open forest, with a deep valley to one side.
+
+ Exits: east
+> go east
+
+ ----------------------------------------------
+ | James: | Move 6 | Energy = 99956 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are   outside Brick Building
+> go south
+
+ ----------------------------------------------
+ | James: | Move 7 | Energy = 99950 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a valley
+> look
+ You are in a valley
+
+ You are  in a valley in the forest beside a stream
+ tumbling along a rocky bed..
+
+ There are a couple of apple trees with fruit
+
+ Exits: east south north west
+> go west
+
+ ----------------------------------------------
+ | James: | Move 8 | Energy = 99942 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  lost in open Forest
+> go east
+
+ ----------------------------------------------
+ | James: | Move 9 | Energy = 99936 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a valley
+> go east
+
+ ----------------------------------------------
+ | James: | Move 10 | Energy = 99930 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  lost in thick Forest
+> go west
+
+ ----------------------------------------------
+ | James: | Move 11 | Energy = 99924 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a valley
+> go south
+
+ ----------------------------------------------
+ | James: | Move 12 | Energy = 99918 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  at slit in streambed
+> look
+ You are at slit in streambed
+
+ You are standing, at your feet all the water of the stream 
+ splashes into a 2-inch slit in the rock.   
+ Downstream the streambed is bare rock.
+
+ Exits: south north
+> go south
+
+ ----------------------------------------------
+ | James: | Move 13 | Energy = 99910 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  beside a grate
+> look
+ You are beside a grate
+
+ You are  You are in a 20-foot depression floored  
+ with bare dirt.  Set into the dirt  
+ is a strong steel grate. The grate is locked.
+
+ Exits: north down
+> go down
+
+ ----------------------------------------------
+ | James: | Move 14 | Energy = 99902 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a chamber
+> look
+ You are in a chamber
+
+ You are You are in a small chamber beneath a 3x3 steel.
+
+ Exits: east up
+> go east
+
+ ----------------------------------------------
+ | James: | Move 15 | Energy = 99894 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  crawling over cobbles
+> look
+ You are crawling over cobbles
+
+ You are crawling over cobbles in a low passage..
+
+ Exits: east west
+> go east
+
+ ----------------------------------------------
+ | James: | Move 16 | Energy = 99886 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a large chamber
+> look
+ You are in a large chamber
+
+ You are in a splendid chamber thirty feet high..
+
+ Exits: east south north west
+> go east
+
+ ----------------------------------------------
+ | James: | Move 17 | Energy = 99878 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a small pit
+> go west
+
+ ----------------------------------------------
+ | James: | Move 18 | Energy = 99872 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a large chamber
+> look
+ You are in a large chamber
+
+ You are in a splendid chamber thirty feet high..
+
+ Exits: east south north west
+> go south
+
+ ----------------------------------------------
+ | James: | Move 19 | Energy = 99864 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a jumble of rocks
+> look
+ You are in a jumble of rocks
+
+ You are in a jumble of rocks, with cracks everywhere..
+
+ Exits: north
+> go north
+
+ ----------------------------------------------
+ | James: | Move 20 | Energy = 99856 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a large chamber
+> go north
+
+ ----------------------------------------------
+ | James: | Move 21 | Energy = 99850 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the King's Hall
+> look
+ You are in the King's Hall
+
+ You are You are in the Hall of the Mountain King.
+
+ There is an old chest filled with treasure
+
+ Exits: south
+> 

@@ -1,0 +1,96 @@
+
+ Welcome to the World of Zuul!
+ World of Zuul is a new, incredibly exiting adventure game.
+ Type 'help' if you need help.
+
+
+ ----------------------------------------------
+ | James: | Move 0 | Energy = 100 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  outside Brick Building
+
+ You are  standing at the end of a road before a brick 
+ building. Around you is a forest. A small stream
+ flows out of the building and down a gully..
+
+ There is an empty bottle on the ground
+
+ Exits: east south north west
+> go south
+
+ ----------------------------------------------
+ | James: | Move 1 | Energy = 94 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a valley
+> go east
+
+ ----------------------------------------------
+ | James: | Move 2 | Energy = 88 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  lost in thick Forest
+> go west
+
+ ----------------------------------------------
+ | James: | Move 3 | Energy = 82 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a valley
+> go west
+
+ ----------------------------------------------
+ | James: | Move 4 | Energy = 76 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  lost in open Forest
+> go east
+
+ ----------------------------------------------
+ | James: | Move 5 | Energy = 70 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a valley
+> go north
+
+ ----------------------------------------------
+ | James: | Move 6 | Energy = 64 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are   outside Brick Building
+> go north
+
+ ----------------------------------------------
+ | James: | Move 7 | Energy = 58 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  inside Brick Building
+> go south
+
+ ----------------------------------------------
+ | James: | Move 8 | Energy = 52 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are   outside Brick Building
+> go south
+
+ ----------------------------------------------
+ | James: | Move 9 | Energy = 46 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a valley
+ 
+ You have died of lack of water or food!
+
+ Thank you for playing.  Good bye.

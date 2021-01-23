@@ -1,0 +1,159 @@
+
+ Welcome to the World of Zuul!
+ World of Zuul is a new, incredibly exiting adventure game.
+ Type 'help' if you need help.
+
+
+ ----------------------------------------------
+ | James: | Move 0 | Energy = 100000 | Score = 0 |
+ ----------------------------------------------
+
+ You are carrying: nothing!
+ You are  outside Brick Building
+
+ You are  standing at the end of a road before a brick 
+ building. Around you is a forest. A small stream
+ flows out of the building and down a gully..
+
+ There is an empty bottle on the ground
+
+ Exits: east south north west
+> take bottle
+
+ You have taken the bottle
+
+ ----------------------------------------------
+ | James: | Move 0 | Energy = 99998 | Score = 100 |
+ ----------------------------------------------
+
+ You are carrying: bottle
+
+ You are   outside Brick Building
+> go north
+
+ ----------------------------------------------
+ | James: | Move 1 | Energy = 99992 | Score = 100 |
+ ----------------------------------------------
+
+ You are carrying: bottle
+
+ You are  inside Brick Building
+> look
+ You are inside Brick Building
+
+ You are  in a well house for a large spring. .
+
+ There are some keys on the ground here.
+
+ Exits: south
+> take key
+
+ You have taken the keys
+
+ You have taken the keys
+
+ ----------------------------------------------
+ | James: | Move 1 | Energy = 99988 | Score = 300 |
+ ----------------------------------------------
+
+ You are carrying: bottle, keys
+
+ You are  inside Brick Building
+> go south
+
+ ----------------------------------------------
+ | James: | Move 2 | Energy = 99982 | Score = 300 |
+ ----------------------------------------------
+
+ You are carrying: bottle, keys
+
+ You are   outside Brick Building
+> go south
+
+ ----------------------------------------------
+ | James: | Move 3 | Energy = 99976 | Score = 300 |
+ ----------------------------------------------
+
+ You are carrying: bottle, keys
+
+ You are  in a valley
+> go south
+
+ ----------------------------------------------
+ | James: | Move 4 | Energy = 99970 | Score = 300 |
+ ----------------------------------------------
+
+ You are carrying: bottle, keys
+
+ You are  at slit in streambed
+> go south
+
+ ----------------------------------------------
+ | James: | Move 5 | Energy = 99964 | Score = 300 |
+ ----------------------------------------------
+
+ You are carrying: bottle, keys
+
+ You are  beside a grate
+> go down
+
+ ----------------------------------------------
+ | James: | Move 6 | Energy = 99958 | Score = 300 |
+ ----------------------------------------------
+
+ You are carrying: bottle, keys
+
+ You are  in a chamber
+> go east
+
+ ----------------------------------------------
+ | James: | Move 7 | Energy = 99952 | Score = 300 |
+ ----------------------------------------------
+
+ You are carrying: bottle, keys
+
+ You are  crawling over cobbles
+> go east
+
+ ----------------------------------------------
+ | James: | Move 8 | Energy = 99946 | Score = 300 |
+ ----------------------------------------------
+
+ You are carrying: bottle, keys
+
+ You are  in a large chamber
+> go north
+
+ ----------------------------------------------
+ | James: | Move 9 | Energy = 99940 | Score = 300 |
+ ----------------------------------------------
+
+ You are carrying: bottle, keys
+
+ You are  in the King's Hall
+> look
+ You are in the King's Hall
+
+ You are You are in the Hall of the Mountain King.
+
+ There is an old chest filled with treasure
+
+ Exits: south
+> take treasure
+
+ You have taken the treasure
+
+ ----------------------------------------------
+ | James: | Move 9 | Energy = 99936 | Score = 400 |
+ ----------------------------------------------
+
+ You are carrying: bottle, keys, treasure
+
+ You are  in the King's Hall
+ 
+ You have found fabulous treasure!
+ and are setup for life!
+
+ I just hope you can find your way out of this cave system
+
+ Thank you for playing.  Good bye.
