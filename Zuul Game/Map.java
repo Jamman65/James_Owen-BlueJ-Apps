@@ -35,7 +35,7 @@ public class Map
         createGrate();
         createSmallChamber();
         createHole();
-        createLargeChamber();
+        createKnightsChamber();
         createKingsHall();
     }
     
@@ -127,7 +127,7 @@ public class Map
 
     private void createRiver()
     {
-        river = new Room(8, "arrived at a river");
+        river = new Room(8, "at a river");
         
         description = "standing, at your feet all the water of the river";
         description += " \n You could gather water with a bottle here  ";
@@ -155,9 +155,9 @@ public class Map
     {
         smallChamber = new Room(10, "in a chamber");
         
-        description = "You are in a small chamber beneath a ";
-        description.join("\ngrate to the surface.",
-            "\nA There is a hole to the west which can be entered.");
+        description = "in a small chamber beneath a"; 
+        description +=("\ngrate to the surface.");
+        description +=("\n There is a hole to the west which can be entered.");
         
         smallChamber.setDescription(description);
         connectRooms(smallChamber, "up", grate);
@@ -167,52 +167,47 @@ public class Map
     {
         hole = new Room(10, "crawling through a hole");
         
-        description = "crawling over cobbles in a low passage.";
-        description.join("\nThere is a dim light at the east end of the passage.");
+        description = "crawling through a narrow hole";
+        description +=("\nThere is a dim light at the east end of the hole.");
         
         hole.setDescription(description);
         connectRooms(hole, "west", smallChamber);
     }
     
-    private void createLargeChamber()
+    private void createKnightsChamber()
     {
-        largeChamber = new Room(10, "in a large chamber");
+        largeChamber = new Room(10, "in a knights chamber ");
         
-        description = "in a splendid chamber thirty feet high.";
-        description.join("\nThe walls are frozen rivers of orange stone. ",
-            "There are passages off in all directions.");
+        description = "in a large chamber with armour and weapons ";
+        description +=("\nThe walls look like they are damaged and have detoriated. ");
+        description +=("\n It looks to have not been used for some time \nThere are passages off in all directions.");
         
         largeChamber.setDescription(description);
         connectRooms(largeChamber, "west", hole);
         
         Room pit = new Room(11, "in a small pit");
-        description = "in a small pit breathing traces of white mist. ";
-        description.join("A east passage ends here except for a small crack leading on");
+        description = "You have fallen in a small pit with only one way out. ";
+        description +=("A east passage ends here except for a small crack leading on");
         pit.setDescription(description);
         
         connectRooms(pit, "west", largeChamber);
     
-        Room  jumble = new Room(12, "in a jumble of rocks");
-        description = "in a jumble of rocks, with cracks everywhere.";
-        jumble.setDescription(description);
+        Room  rocks = new Room(12, "this passage is full of rocks");
+        description = "theres no way forward.";
+        rocks.setDescription(description);
         
-        connectRooms(jumble, "north", largeChamber);
+        connectRooms(rocks, "north", largeChamber);
         
-        // Room  rocks = new Room(13, "in a large room");
-        // description = "You are in a large room full of dusty rocks. ";
-        // description.join("There are cracks everywhere.");
-        // rocks.setDescription(description);
-        
-        // connectRooms(rocks, "south", largeChamber);        
+   
     }
     
     private void createKingsHall()
     {
         kingsHall = new Room(14, "in the King's Hall");
         
-        description = "You are in the Hall of the Mountain King";
-        description.join("\nThe hall is filled with wisps of white mist ",
-        "swaying to and fro as if alive.");
+        description = "in the Hall of a  fallen king ";
+        description +=("\nThe hall is filled with what looks to be the kings treasure ");
+        description +=("\nThere are armour stands with the knights who served the king.");
         
         kingsHall.setItem(ItemTypes.TREASURE, 
             "\n There is an old chest filled with treasure");
@@ -259,35 +254,5 @@ public class Map
         return room;
     }
     
-    /**
-     * Create all the rooms and link their exits together.
-     * and return the current room for the player to start
-     */
-    public Room createTestRooms()
-    {
-        Room outside, theater, pub, lab, office;
-      
-        // create the rooms
-        outside = new Room(1, " outside the main entrance of the university");
-        theater = new Room(2, " in a lecture theater");
-        pub = new Room(3, " in the campus pub");
-        lab = new Room(4, " in a computing lab");
-        office = new Room(5, " in the computing admin office");
-        
-        // initialise room exits
-        outside.setExit("east", theater);
-        outside.setExit("south", lab);
-        outside.setExit("west", pub);
-
-        theater.setExit("west", outside);
-
-        pub.setExit("east", outside);
-
-        lab.setExit("north", outside);
-        lab.setExit("east", office);
-
-        office.setExit("west", lab);
-
-        return outside;  // start game outside
-    }
+  
 }

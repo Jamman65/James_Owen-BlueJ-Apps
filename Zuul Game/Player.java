@@ -17,7 +17,7 @@ public class Player
 
     public static final int MAX_PROVISION = 100;
     public static final int MIN_PROVISION = 10;
-    public static final int PROVISION_LOSS = 6;
+    public static final int PROVISION_LOSS = 4;
     
     public static final int MOVE_ENERGY = 4;
     
@@ -103,7 +103,7 @@ public class Player
         if(isCarrying(item))
         {
             provision -= (PROVISION_LOSS/2);
-            energy += 2;
+            energy += 20;
         }
         else
         {

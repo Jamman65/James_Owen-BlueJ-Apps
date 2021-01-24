@@ -250,7 +250,7 @@ public class Game
                 {
                     System.out.println("\n You do not have a bottle!");
                     System.out.println(" You take a drink!");
-                    player.incEnergy(12);
+                    player.incEnergy(20);
                     
                    
                 }
@@ -259,7 +259,7 @@ public class Game
                          (player.isCarrying(ItemTypes.BOTTLE))))
                 {
                     System.out.println("\n You take a drink");
-                    player.incEnergy(12);
+                    player.incEnergy(20);
                     System.out.println("\n Some of your energy has been replenished");
                     
                     
@@ -289,7 +289,7 @@ public class Game
                         System.out.println("\n You have taken the " + item);
                         System.out.println("\n You have eaten the " + item);
                         System.out.println("\n Some of your energy has been replenished");
-                        player.incEnergy(12);
+                        player.incEnergy(20);
                     }
                 
                     
