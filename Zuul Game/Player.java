@@ -7,8 +7,8 @@ import java.util.ArrayList;
  * The player can carry a number of items up to 
  * the maximum weight.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (James Owen)
+ * @version (1)
  */
 public class Player
 {

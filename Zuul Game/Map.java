@@ -2,8 +2,8 @@
 /**
  * Write a description of class Map here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (James Owen)
+ * @version (version 1)
  */
 public class Map
 {

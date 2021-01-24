@@ -4,7 +4,7 @@
  * 
  * @author  Michael Kölling and David J. Barnes
  * @version 2016.02.29
- * Modified by Derek Peacock
+ * Modified by James Owen
  */
 public enum CommandWord
 {

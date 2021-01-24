@@ -3,8 +3,8 @@
  * This class creates an instance of the Game
  * class and then calls on its run method.
  *
- * @author Derek Peacock
- * @version 0.1
+ * @author James Owen
+ * @version 1
  */
 public class Program
 {
@@ -16,9 +16,8 @@ public class Program
      */
     public static void main()
     {
-        game = new Game("Derek");
+        game = new Game("James");
         game.play();
-        //char c = (char)System.in.read();
-        //System.out.println("Character entered = " + c);
+
     }
 }

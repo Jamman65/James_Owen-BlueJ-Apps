@@ -214,7 +214,7 @@ public class Game
         
         boolean wantsWater = object.equals("water");
         boolean wantsKey = object.equals("key");
-        boolean wantsFood = object.equals("food");
+        boolean wantsApples = object.equals("apples");
         
         if(object == null)
         {
@@ -226,13 +226,13 @@ public class Game
         }
         else
         {
-            if(object.equals(stringItem) || wantsWater || wantsKey || wantsFood   )
+            if(object.equals(stringItem) || wantsWater || wantsKey || wantsApples   )
             {
                 if(wantsKey)
                 {
                     currentRoom.removeItem();
                 }
-                if(wantsFood)
+                if(wantsApples)
                 {
                     currentRoom.removeItem();
                 }
@@ -282,7 +282,7 @@ public class Game
                         System.out.println("\n You have taken the " + item);
                     }
                     
-                    if(wantsFood)
+                    if(wantsApples)
                     {
                         player.addItem(item);
                         player.incScore(TAKE_SCORE);
