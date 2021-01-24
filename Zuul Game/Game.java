@@ -213,7 +213,7 @@ public class Game
         String stringItem = item.toString();
         
         boolean wantsWater = object.equals("water");
-        boolean wantsKey = object.equals("key");
+        boolean wantsKey = object.equals("keys");
         boolean wantsApples = object.equals("apples");
         
         if(object == null)
